@@ -13,64 +13,49 @@ import ContactUsBtn from "./ContactUsBtn";
 const HeroSection = () => {
   const txtColor = useColorModeValue("gray.700", "gray.300");
 
-  // const animSvg = {
-  //   hidden: { x: -100, opacity: 0 },
-  //   visible: {
-  //     x: 0,
-  //     opacity: 1,
-  //     //   rotate: [0, 10, 0],
-  //     transition: { duration: 1, delay: 0.4 },
-  //   },
-  // };
-
-  const animBigText = {
+  const animSvg = {
     hidden: { x: -100, opacity: 0 },
     visible: {
       x: 0,
+      opacity: 1,
+      //   rotate: [0, 10, 0],
+      transition: { duration: 1, delay: 0.4 },
+    },
+  };
+
+  const animBigText = {
+    hidden: { y: 100, opacity: 0 },
+    visible: {
+      y: 0,
       opacity: 1,
       // rotate: [0, 10, 0],
       transition: {
         type: "spring",
         bounce: "0.4",
         duration: 3,
-        delay: 0.4,
+        delay: 0.6,
       },
     },
   };
 
   const animMidText = {
-    hidden: { x: -100, opacity: 0 },
+    hidden: { y: 100, opacity: 0 },
     visible: {
-      x: 0,
+      y: 0,
       opacity: 1,
       // rotate: [0, 10, 0],
       transition: {
         type: "spring",
         bounce: "0.4",
         duration: 3,
-        delay: 0.8,
+        delay: 1,
       },
     },
   };
   const animSmallText = {
-    hidden: { x: -100, opacity: 0 },
+    hidden: { y: 100, opacity: 0 },
     visible: {
-      x: 0,
-      opacity: 1,
-      // rotate: [0, 10, 0],
-      transition: {
-        type: "spring",
-        bounce: "0.4",
-        duration: 3,
-        delay: 1.2,
-      },
-    },
-  };
-
-  const animButton = {
-    hidden: { x: -100, opacity: 0 },
-    visible: {
-      x: 0,
+      y: 0,
       opacity: 1,
       // rotate: [0, 10, 0],
       transition: {
@@ -78,6 +63,21 @@ const HeroSection = () => {
         bounce: "0.4",
         duration: 3,
         delay: 1.6,
+      },
+    },
+  };
+
+  const animButton = {
+    hidden: { y: 100, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+      // rotate: [0, 10, 0],
+      transition: {
+        type: "spring",
+        bounce: "0.4",
+        duration: 3,
+        delay: 2.2,
       },
     },
   };
@@ -133,7 +133,7 @@ const HeroSection = () => {
       <Spacer />
 
       <Box
-      
+      as={motion.div} variants={animSvg}
         pos='relative'
         w='330px'
         h='550px'>

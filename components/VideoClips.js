@@ -1,7 +1,7 @@
 import { Box, Heading, SimpleGrid } from "@chakra-ui/react";
-import VideoClipCard from "./VideoClipCard";
+import VideoClipCard from "../components/VideoClipCard";
 
-const videoClip = [
+const videoClips = [
   { id: 1, url: "https://www.youtube.com/embed/VJPQU8mfH5Y" },
   { id: 2, url: "https://www.youtube.com/embed/zdK46nZYwsA" },
   { id: 3, url: "https://www.youtube.com/embed/1sKHwC7Ydo4" },
@@ -17,7 +17,7 @@ const VideoClips = () => {
       </Heading>
 
       <SimpleGrid columns={[1, 2, 2, 3]} spacing='40px' mt='12'>
-        {videoClip.map((clip) => (
+        {videoClips.map((clip) => (
           <VideoClipCard key={clip.id} {...clip} />
         ))}
       </SimpleGrid>

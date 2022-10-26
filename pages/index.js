@@ -1,10 +1,9 @@
 import Head from "next/head";
 import AboutUs from "../components/About-us";
-import Footer from "../components/Footer";
 import HeroSection from "../components/HeroSection";
-import NavHeader from "../components/NavHeader";
 import Updates from "../components/Updates";
-import {LazyVideoClips} from '../components/LazyVideoClips'
+import NavHeader from "../components/NavHeader";
+import YoutubeLinks from "../components/YoutubeLinks";
 
 const DEFAULT_OG_IMAGE =
   "https://res.cloudinary.com/mctony17/image/upload/v1666804850/logos/logo.webp";
@@ -35,9 +34,7 @@ export default function Home({ ogImage = DEFAULT_OG_IMAGE }) {
       <HeroSection />
       <AboutUs />
       <Updates />
-      <LazyVideoClips />
-     
-      <Footer />
+      <YoutubeLinks />
     </div>
   );
 }

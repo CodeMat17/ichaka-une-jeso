@@ -1,11 +1,10 @@
-import { Box, HStack, useColorModeValue } from "@chakra-ui/react";
+import { Box, HStack } from "@chakra-ui/react";
 import ColorModeToggle from "./ColorModeToggle";
 import { MobileMenu } from "./menuBtn/MobileMenu";
 import LogoComponent from "./LogoComponent";
 import { DesktopMenu } from "./menuBtn/DesktopMenu";
 
 const NavHeader = () => {
-   const bg = useColorModeValue("gray.200", "gray.800");
 
   return (
     <Box

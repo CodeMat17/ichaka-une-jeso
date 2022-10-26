@@ -1,17 +1,18 @@
-import {Box, AspectRatio} from '@chakra-ui/react'
+import { AspectRatio, Box, Button } from "@chakra-ui/react";
 
-const VideoClipCard = ({url}) => {
+
+const VidPixCard = ({ url }) => {
   return (
-    <Box rounded='lg' overflow='hidden' >
+    <Box pos='relative' rounded='lg' overflow='hidden'>
       <AspectRatio maxW='md' ratio={4 / 3}>
         <iframe
-          title='Izaga on Ichaka-une day'
+          title='naruto'
           src={url}
           allowFullScreen
         />
       </AspectRatio>
     </Box>
   );
-}
+};
 
-export default VideoClipCard
+export default VidPixCard;

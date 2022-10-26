@@ -109,12 +109,12 @@ const Footer = () => {
       <Text>&copy; 2022 Ichaka-Une Jeso. All rights reserved.</Text>
       <Text color='gray.300'>
         {" "}
-        Developed by{" "}
+        Developed and sponsored  by{" "}
         <Link
           color='blue.400'
           isExternal
           href='https://www.soft-lutions.com.ng'>
-          CodeMat Soft-lutions.
+          Chukwu Matthew.
         </Link>
       </Text>
     </Box>

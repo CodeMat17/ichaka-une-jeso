@@ -8,14 +8,9 @@ import {
   DrawerHeader,
   DrawerOverlay,
   IconButton,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuList,
   useDisclosure,
 } from "@chakra-ui/react";
-import { BsWhatsapp } from "react-icons/bs";
-import { HiMenuAlt3, HiOutlineMail } from "react-icons/hi";
+import { HiMenuAlt3 } from "react-icons/hi";
 import { Link } from "react-scroll";
 import { navLinks } from "../../navLinks";
 import LogoComponent from "../LogoComponent";
@@ -56,7 +51,7 @@ export const MobileMenu = () => {
                 </Button>
               </Link>
             ))}
-        <NavContactUs />
+            <NavContactUs />
           </DrawerBody>
         </DrawerContent>
       </Drawer>
