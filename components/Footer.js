@@ -19,7 +19,8 @@ import LogoComponent from "./LogoComponent";
 const Footer = () => {
   return (
     <Box
-      bgGradient='linear(to-b, gray.800, tomato)' color='white'
+      bgGradient='linear(to-b, gray.800, tomato)'
+      color='white'
       px='6'
       py='12'>
       <HStack ml='-2'>
@@ -46,7 +47,7 @@ const Footer = () => {
             />
             <IconButton
               as='a'
-              href='#'
+              href='https://www.facebook.com/profile.php?id=100047382772700'
               target='_blank'
               size='lg'
               color='facebook.500'
@@ -63,7 +64,8 @@ const Footer = () => {
             <MenuButton
               as={IconButton}
               isRound
-              size='lg' color='orange'
+              size='lg'
+              color='orange'
               icon={<HiChatAlt2 size={30} />}></MenuButton>
             <MenuList>
               <MenuItem
@@ -94,10 +96,7 @@ const Footer = () => {
       <Text color='gray.300'>
         {" "}
         Developed by{" "}
-        <Link
-          color='purple'
-          isExternal
-          href='https://www.soft-lutions.com.ng'>
+        <Link color='purple' isExternal href='https://www.soft-lutions.com.ng'>
           CodeMat Soft-lutions.
         </Link>
       </Text>

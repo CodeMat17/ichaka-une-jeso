@@ -7,7 +7,7 @@ import Updates from "../components/Updates";
 import VideoClips from "../components/VideoClips";
 
 const DEFAULT_OG_IMAGE =
-  "/izaga/logo.webp";
+  "https://res.cloudinary.com/mctony17/image/upload/v1666804850/logos/logo.webp";
 
 export default function Home({ ogImage = DEFAULT_OG_IMAGE }) {
   return (
@@ -16,7 +16,7 @@ export default function Home({ ogImage = DEFAULT_OG_IMAGE }) {
         <title>Ichakaune Jeso</title>
         <meta
           name='description'
-          content='This is a traditional and highlife dace and music group. We perform any where in the world when booked. We also Organise an annual Ichaka Une Day every january 3rd in Imeama Mkpumaonu in Nomeh unateze, Nkanu East of Enugu state. Aka of the CEO is Izaga Nkanu.'
+          content='This is a traditional and highlife dance and music group. We perform any where in the world when booked. We also Organise an annual Ichaka Une Day every january 3rd in Imeama Mkpumaonu in Nomeh unateze, Nkanu East of Enugu state. Aka of the CEO is Izaga Nkanu.'
         />
         <meta
           key='og_image'
