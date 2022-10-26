@@ -33,7 +33,7 @@ const HeroSection = () => {
         type: "spring",
         bounce: "0.4",
         duration: 3,
-        delay: 0.6,
+        delay: 0.4,
       },
     },
   };
@@ -48,7 +48,7 @@ const HeroSection = () => {
         type: "spring",
         bounce: "0.4",
         duration: 3,
-        delay: 0.8,
+        delay: 0.6,
       },
     },
   };
@@ -62,7 +62,7 @@ const HeroSection = () => {
         type: "spring",
         bounce: "0.4",
         duration: 3,
-        delay: 1,
+        delay: .8,
       },
     },
   };
@@ -77,7 +77,7 @@ const HeroSection = () => {
         type: "spring",
         bounce: "0.4",
         duration: 3,
-        delay: 1.2,
+        delay: 1,
       },
     },
   };
