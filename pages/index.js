@@ -9,7 +9,7 @@ import VideoClips from "../components/VideoClips";
 const DEFAULT_OG_IMAGE =
   "/izaga/logo.webp";
 
-export default function Home() {
+export default function Home({ ogImage = DEFAULT_OG_IMAGE }) {
   return (
     <div>
       <Head>
