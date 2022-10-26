@@ -65,7 +65,7 @@ const AboutUs = () => {
       <Text as={motion.div} variants={animText2} pt='6'>
         The C.E.O of the musical group is Victor Chidiebere Ogowa who has been
         awarded the best IGBO TRADITIONAL HIGHLIFE ARTIST OF 2019 ABIDJAN, CÔTÉ
-        D'IVOIRE by FabKin Media in conjunction with Paul Concept. HE was also
+        D&apos;IVOIRE by FabKin Media in conjunction with Paul Concept. HE was also
         awarded by the Youth of Nomeh Unateze in conjunction with the Department
         of POCACOV as THE ODOZIOBODO (PEACE AMBASSADOR) 1 OF NOMEH UNATEZE.
       </Text>
