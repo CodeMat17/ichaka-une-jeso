@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import HeroSection from "../components/HeroSection";
 import NavHeader from "../components/NavHeader";
 import Updates from "../components/Updates";
-import VideoClips from "../components/VideoClips";
+import {LazyVideoClips} from '../components/LazyVideoClips'
 
 const DEFAULT_OG_IMAGE =
   "https://res.cloudinary.com/mctony17/image/upload/v1666804850/logos/logo.webp";
@@ -35,7 +35,8 @@ export default function Home({ ogImage = DEFAULT_OG_IMAGE }) {
       <HeroSection />
       <AboutUs />
       <Updates />
-      <VideoClips />
+      <LazyVideoClips />
+     
       <Footer />
     </div>
   );
