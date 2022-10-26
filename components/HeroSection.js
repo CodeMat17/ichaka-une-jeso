@@ -24,9 +24,9 @@ const HeroSection = () => {
   // };
 
   const animBigText = {
-    hidden: { y: 100, opacity: 0 },
+    hidden: { x: -100, opacity: 0 },
     visible: {
-      y: 0,
+      x: 0,
       opacity: 1,
       // rotate: [0, 10, 0],
       transition: {
@@ -39,45 +39,45 @@ const HeroSection = () => {
   };
 
   const animMidText = {
-    hidden: { y: 100, opacity: 0 },
+    hidden: { x: -100, opacity: 0 },
     visible: {
-      y: 0,
+      x: 0,
       opacity: 1,
       // rotate: [0, 10, 0],
       transition: {
         type: "spring",
         bounce: "0.4",
         duration: 3,
-        delay: 0.6,
+        delay: 0.8,
       },
     },
   };
   const animSmallText = {
-    hidden: { y: 100, opacity: 0 },
+    hidden: { x: -100, opacity: 0 },
     visible: {
-      y: 0,
+      x: 0,
       opacity: 1,
       // rotate: [0, 10, 0],
       transition: {
         type: "spring",
         bounce: "0.4",
         duration: 3,
-        delay: .8,
+        delay: 1.2,
       },
     },
   };
 
   const animButton = {
-    hidden: { y: 100, opacity: 0 },
+    hidden: { x: -100, opacity: 0 },
     visible: {
-      y: 0,
+      x: 0,
       opacity: 1,
       // rotate: [0, 10, 0],
       transition: {
         type: "spring",
         bounce: "0.4",
         duration: 3,
-        delay: 1,
+        delay: 1.6,
       },
     },
   };

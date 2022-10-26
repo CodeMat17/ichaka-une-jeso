@@ -16,10 +16,12 @@ import { BsWhatsapp, BsYoutube } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 import { HiChatAlt2, HiOutlineMail } from "react-icons/hi";
 import LogoComponent from "./LogoComponent";
+import {BsInstagram} from 'react-icons/bs'
+
 const Footer = () => {
   return (
     <Box
-      bgGradient='linear(to-b, gray.800, tomato)'
+      bgGradient='linear(to-b, gray.900, gray.800, red.800)'
       color='white'
       px='6'
       py='12'>
@@ -50,10 +52,22 @@ const Footer = () => {
               href='https://www.facebook.com/profile.php?id=100047382772700'
               target='_blank'
               size='lg'
-              color='facebook.500'
+              color='facebook.300'
               icon={<FaFacebookF size={30} />}
               isRound
             />
+
+            <IconButton
+              as='a'
+              href='https://www.instagram.com/ichakaunejeso/'
+              target='_blank'
+              size='lg'
+              color='tomato'
+              icon={<BsInstagram size={30} />}
+              isRound
+            />
+
+            {/*  */}
           </HStack>
         </VStack>
 
@@ -96,7 +110,10 @@ const Footer = () => {
       <Text color='gray.300'>
         {" "}
         Developed by{" "}
-        <Link color='purple' isExternal href='https://www.soft-lutions.com.ng'>
+        <Link
+          color='blue.400'
+          isExternal
+          href='https://www.soft-lutions.com.ng'>
           CodeMat Soft-lutions.
         </Link>
       </Text>
