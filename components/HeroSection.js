@@ -13,15 +13,15 @@ import ContactUsBtn from "./ContactUsBtn";
 const HeroSection = () => {
   const txtColor = useColorModeValue("gray.700", "gray.300");
 
-  const animSvg = {
-    hidden: { x: -100, opacity: 0 },
-    visible: {
-      x: 0,
-      opacity: 1,
-      //   rotate: [0, 10, 0],
-      transition: { duration: 1, delay: 0.4 },
-    },
-  };
+  // const animSvg = {
+  //   hidden: { x: -100, opacity: 0 },
+  //   visible: {
+  //     x: 0,
+  //     opacity: 1,
+  //     //   rotate: [0, 10, 0],
+  //     transition: { duration: 1, delay: 0.4 },
+  //   },
+  // };
 
   const animBigText = {
     hidden: { y: 100, opacity: 0 },
@@ -133,8 +133,7 @@ const HeroSection = () => {
       <Spacer />
 
       <Box
-        as={motion.div}
-        variants={animSvg}
+      
         pos='relative'
         w='330px'
         h='550px'>
